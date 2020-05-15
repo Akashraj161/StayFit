@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden; 
+}
+
+div.container-fluid{
+ 
+    padding: 0px;
+}
+
+
+div li.nav-item {
+    
+    margin-left: 30px;
+}
+
+
+.dropdown-menu{
+    
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.dropdown-item{
+
+    background-color: #404040;
+    color: #ffffff;
+}
+
+.dropdown-item:hover {
+    
+    background: #8c8c8c;
+   color: #ffffff;
+}
+
+.section1{
+   
+     background-color: #f08a5d;
+}
+
+.jumbotron{
+    line-height: 45px;
+    text-align: center;
+    background-color: #f08a5d;
+   
+}
+
+
+.display-4{
+    margin-top: 15%;
+    font-weight: bold;
+     text-shadow: 4px 0px 2px #000000;
+}
+
+
+.quote{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+     text-shadow: 2px 0px 2px #000000;
+}
+
+.col-sm-12.col-md-6.right{
+    
+    padding:15px;
+}
+
+.section2{
+    background-color: #f3ecb8;
+    margin-bottom: 5px;
+}
+
+.card{
+    background-color: #dee3e2;
+    margin: auto;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    overflow:hidden;
+    margin-bottom: 5px; 
+    margin-top: 7px;
+}
+
+
+.card-img-top{
+   
+    border-radius: 50%;
+    
+} 
+
+
+.card-img-top{
+    transition: all 1.2s ease;
+    
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+
+.card-texthead{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.card-textbody{
+   
+    text-align: center;
+     font-size: 20px;
+    font-family: 'Markazi Text', serif,sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
