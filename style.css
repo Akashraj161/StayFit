@@ -2,9 +2,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 body{
     overflow-x: hidden; 
+    padding-right: 0px;
+     
 }
 
 div.container-fluid{
@@ -38,7 +41,7 @@ div li.nav-item {
 }
 
 .section1{
-   
+ 
      background-color: #f08a5d;
 }
 
@@ -71,7 +74,9 @@ div li.nav-item {
 
 .section2{
     background-color: #f3ecb8;
-    margin-bottom: 5px;
+ padding-top: 8px;
+    padding-bottom: 8px;
+  
 }
 
 .card{
@@ -79,10 +84,12 @@ div li.nav-item {
     margin: auto;
     box-shadow: 10px 10px 5px #aaaaaa;
     overflow:hidden;
-    margin-bottom: 5px; 
-    margin-top: 7px;
+    padding-bottom: 1px;
 }
 
+.col-sm-12{
+  padding: 10px;
+}
 
 .card-img-top{
    
@@ -115,19 +122,334 @@ div li.nav-item {
 }
 
 
+/* ######## Section-3 ########*/
 
-
-
-
-
-
-
-
-
-
-
-
-
+.section3{
+    background-color:#f08a5d; 
   
+    
+}
+.section3head{
+   line-height: 70px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+     text-shadow: 2px 0px 2px #000000;
+}
+
+.sec3{
+    text-align: center;
+ 
+}
+
+.icontext{
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+
+.sec3icon{
+  text-align: center;
+    margin-top: 15px;
+max-width: 50%
+}
+
+/* ######## Section-5 ########*/
+
+.section5{
+     background-color: #f08a5d;
+   padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.card-body.buy{
+  text-align: center;
+ padding: 0px;
+    padding-bottom: 10px;
+    background-color: #ffe9c5;
+     
+}
+
+
+.card.price{
+    position: relative;
+    margin: auto;
+    box-shadow: 7px 7px 8px #000;
+    
+}
+
+.col-sm-6{
+    
+    max-width: 50%;
+}
+
+.card-title{
+ padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    background-color: #333333;
+    color: #fff;
+}
+
+p.card-text li{
+text-align: center;
+}
+
+
+.card-link{  
+    padding: 10px 30px; 
+    background-color: #0779e4;
+    color: #fff;
+}
+
+.card-body a{
+    border-radius: 5%;
+}
+
+
+.card-link:hover{
+    color: #fff;
+    background-color: #0669c6;
+}
+
+.card-subtitle{
+    
+    font-weight:bolder;
+}
+
+
+/* ######## Section-4 ########*/
+
+.section4{
+    background-color: #f3ecb8;
+    border-top-color: #000;
+    padding-bottom: 7px;
+}
+
+.section4head{
+    font-size: 35px;
+    text-align: center;
+     text-shadow: 2px 0px 2px #000000;
+    padding: 10px;
+}
+
+
+#carousel2{
+    width: 100%;
+    margin: auto;
+  
+    
+}
+
+.review img{
+    position:absolute;
+    border-radius: 50%;
+ left: -10px;
+    bottom: 200px;
+    
+}
+
+/*.top-left{
+    position: absolute;
+    top: -400px;
+    left: -50px;
+}
+*/
+
+.carousel-caption{
+ padding-bottom: 300px;   
+}
+
+/*.reviewName{
+    position: absolute;
+    left: 125px;
+   top: -90px;
+}*/
+
+.reviewOfMembers{
+    position: absolute;
+    right: 100px;
+    top: -100px;
+}
+
+
+.reviewText i{
+    margin: 5px;
+}
+
+
+/* ######## Footer ########*/
+
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top:10px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoInstagram:hover{
+    background-image: linear-gradient(180deg,#8a3ab9,#e95950,#bc2a8d, #fccc63,#fbad50,#cd486b,#4c68d7);
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,.social-network a.icoInstagram:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ######## Responsive ########*/
+
+@media screen and (max-width: 1200px){
+    
+    .review img{
+    position:absolute;
+   border-radius: 50%;
+    left: -15px;
+    bottom: 80px;
+    width: 40%;
+
+}
+
+    div.reviewOfMembers{
+        font-size: 10px;
+        position: absolute;
+        top: 110px;
+        right: -45px;
+    }
+    
+    a.carousel-control-prev{
+        width: 5%;
+    }
+    a.carousel-control-next{
+        width:5%;
+        
+    }
+    
+  /*  @media screen and (min-width: 700px) and (max-width: 1200px){
+         div.reviewOfMembers{
+        font-size: 15px;
+        position: absolute;
+        top: 120px;
+        right: -55px;
+        
+        }
+    }
 
 
